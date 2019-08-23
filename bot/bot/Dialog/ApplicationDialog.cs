@@ -11,8 +11,7 @@ namespace bot.Dialogs
 {
     public class ApplicationDialog : ComponentDialog
     {
-        private const string InitialText = "What position would you like to apply for";
-        private const string RepromptText = "Sorry, please enter a valid position that is avaliable.";
+        private const string InitialText = "What position would you like to apply for?";
 
         public ApplicationDialog()
             : base(nameof(ApplicationDialog))
